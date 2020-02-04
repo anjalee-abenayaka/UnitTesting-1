@@ -13,6 +13,8 @@
 		3C10754623E576AC00F043B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C10754523E576AC00F043B4 /* Assets.xcassets */; };
 		3C10754923E576AC00F043B4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C10754723E576AC00F043B4 /* LaunchScreen.storyboard */; };
 		3C10755423E576AD00F043B4 /* UnitTestingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C10755323E576AD00F043B4 /* UnitTestingTests.swift */; };
+		3C10755F23E577DB00F043B4 /* Student.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C10755E23E577DB00F043B4 /* Student.swift */; };
+		3C872C0B23E7191E00D96485 /* TestStudent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C872C0A23E7191E00D96485 /* TestStudent.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		3C10754F23E576AD00F043B4 /* UnitTestingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UnitTestingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C10755323E576AD00F043B4 /* UnitTestingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitTestingTests.swift; sourceTree = "<group>"; };
 		3C10755523E576AD00F043B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C10755E23E577DB00F043B4 /* Student.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Student.swift; sourceTree = "<group>"; };
+		3C872C0A23E7191E00D96485 /* TestStudent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestStudent.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +87,7 @@
 				3C10754523E576AC00F043B4 /* Assets.xcassets */,
 				3C10754723E576AC00F043B4 /* LaunchScreen.storyboard */,
 				3C10754A23E576AC00F043B4 /* Info.plist */,
+				3C10755E23E577DB00F043B4 /* Student.swift */,
 			);
 			path = UnitTesting;
 			sourceTree = "<group>";
@@ -92,6 +97,7 @@
 			children = (
 				3C10755323E576AD00F043B4 /* UnitTestingTests.swift */,
 				3C10755523E576AD00F043B4 /* Info.plist */,
+				3C872C0A23E7191E00D96485 /* TestStudent.swift */,
 			);
 			path = UnitTestingTests;
 			sourceTree = "<group>";
@@ -198,6 +204,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3C10754123E576AA00F043B4 /* ViewController.swift in Sources */,
+				3C10755F23E577DB00F043B4 /* Student.swift in Sources */,
 				3C10753F23E576AA00F043B4 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -207,6 +214,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3C10755423E576AD00F043B4 /* UnitTestingTests.swift in Sources */,
+				3C872C0B23E7191E00D96485 /* TestStudent.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
